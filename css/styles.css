@@ -1,0 +1,785 @@
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+}
+
+.orange-space {
+    color: #FFB22C;
+}
+
+video {
+    border-radius: 20px 20px;
+}
+
+.video-size {
+    width: 390px;
+    height: 690px;
+}
+
+/* Start */
+
+#logo-img {
+    width: 500px;
+}
+
+#logo {
+    margin-top: 2rem;
+}
+
+#logo-img:hover {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+#logo-img:not(:hover) {
+    transform: scale(1);
+    transition-duration: .3s;
+}
+
+#start {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+.top-container {
+    padding: 5% 15%;
+}
+
+.l-align {
+    text-align: left;
+}
+
+hr:not([size]) {
+    height: 6px;
+}
+
+.text-hr {
+    margin: 5rem 0;
+    opacity: 1;
+    color: #ffae00;
+}
+
+
+/* LAYOUT's */
+
+#layouts {
+    background-color: #fff;
+}
+
+#layout-img {
+    padding: 5% 0 2%;
+}
+
+.middle-container {
+    padding: 2% 0 7%;
+}
+
+/* END */
+
+#end {
+    background-color: #1A1A1A;
+}
+
+.bottom-container {
+    padding: 7% 15%;
+}
+
+#h2-end {
+    margin-bottom: 80px;
+}
+
+#behance-txt:hover {
+    font-size: 2.2rem;
+    transition: .3s;
+}
+
+#behance-txt:not(:hover) {
+    font-size: 2rem;
+    transition: .3s;
+}
+
+#behance-link {
+    text-decoration: none;
+    color: #FFB22C;
+}
+
+#cursor {
+    transform: rotate(-45deg);
+}
+
+.fx-container {
+    padding: 0 10%;
+}
+
+.btn {
+    background-image: linear-gradient(280deg, #FFD160 0%, #FFAA7A 100%);
+    background-color: #ffc477;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 45px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #cc9f52;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background: linear-gradient(280deg, #FFAA7A 0%, #FFD160 100%);
+    background-color: #fb9e25;
+    color: white;
+}
+
+.hr-end {
+    color: #fff;
+    opacity: 1;
+}
+
+.end-container {
+    padding: 2% 26%;
+}
+
+.h4-w {
+    font-weight: 900;
+}
+
+#h1-end {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.5rem;
+}
+
+.profile-img {
+    width: 260px;
+    height: 260;
+}
+
+.profile-img:hover {
+    transform: scale(0.9);
+    transition: .3s;
+}
+
+.profile-img:not(:hover) {
+    transform: scale(1);
+    transition: .3s;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2d2d2d;
+    padding: 3%;
+}
+
+.footer-links {
+    margin: 0 16px 0;
+}
+
+
+#instagram:hover {
+    color: #FFB22C;
+    transition: .4s;
+}
+
+#instagram:not(:hover) {
+    color: #fff;
+    transition: .4s
+}
+
+#behance:hover {
+    color: #FFB22C;
+    transition: .4s;
+}
+
+#behance:not(:hover) {
+    color: #fff;
+    transition: .4s
+}
+
+
+.font-style-normal {
+    font-style: normal;
+}
+
+/* Media Query */
+
+
+
+/* 1440px */
+
+@media (max-width:1440px) {
+    .end-container {
+        padding: 2% 20%;
+    }
+
+    .fx-container {
+        padding: 0;
+    }
+
+    .video-size {
+        width: 420px;
+        height: 740px;
+    }
+}
+
+/* 1024px */
+
+@media (max-width:1024px) {
+    #h1 {
+        font-size: 2.2rem;
+    }
+
+    #v1 {
+        width: 370px;
+        height: 660px;
+        position: relative;
+        top: 100px;
+    }
+
+    #carousel-img {
+        height: 470px;
+    }
+
+    #v2 {
+        width: 360px;
+        height: 640px;
+    }
+
+    .bottom-container {
+        padding: 7% 5%;
+    }
+
+    .end-container {
+        padding: 2% 12%;
+    }
+}
+
+/* 768px */
+
+@media (max-width:768px) {
+    #nav-img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .navbar-toggler {
+        width: 100px;
+        height: 65px;
+    }
+
+    .navbar-toggler-icon {
+        width: 45px;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    #p {
+        font-size: 1.35rem;
+    }
+
+    #v1 {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .middle-container {
+        padding: 20% 2% 60%;
+    }
+
+    #layout-img {
+        padding: 40% 0 0;
+    }
+
+    #carousel-img {
+        height: 415px;
+    }
+
+    #v2 {
+        margin: 20px 0;
+        width: 420px;
+        height: 740px;
+    }
+
+    #h2-end {
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+    }
+
+    #behance-txt:hover {
+        font-size: 2.4rem;
+        transition: .3s;
+    }
+
+    #behance-txt:not(:hover) {
+        font-size: 2.2rem;
+        transition: .3s;
+    }
+
+    .end-container {
+        padding: 2% 5%;
+    }
+}
+
+/* 425px */
+@media (max-width: 425px) {
+    #nav-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-toggler {
+        width: 60px;
+        height: 50px;
+    }
+
+    .navbar-toggler-icon {
+        width: 35px;
+    }
+
+    #h1 {
+        font-size: 1.9rem;
+    }
+
+    #logo-img {
+        width: 80%;
+    }
+
+    #v1, #v2 {
+        width: 240px;
+        height: 426px;
+    }
+
+    #carousel-img {
+        height: 230px;
+    }
+
+    #h2-end {
+        margin-bottom: 30px;
+        font-size: 1.8rem;
+    }
+
+    #behance-txt:hover {
+        font-size: 2rem;
+        transition: .3s;
+    }
+
+    #behance-txt:not(:hover) {
+        font-size: 1.8rem;
+        transition: .3s;
+    }
+
+    #h1-end {
+        font-size: 2.6rem;
+    }
+
+    .profile-img {
+        width: 150px;
+    }
+
+    #dudu, #igor {
+        font-size: 1.13rem;
+    }
+}
+
+/* 375px */
+
+@media (max-width: 375px) {
+
+    .navbar-toggler {
+        width: 60px;
+        height: 40px;
+    }
+
+    #logo-img {
+        width: 280px;
+    }
+
+    #h1 {
+        font-size: 1.68rem;
+        margin-top: 1rem;
+    }
+
+    #h3 {
+        font-size: 1.3rem;
+    }
+
+    #p {
+        font-size: 1.15rem;
+    }
+
+    .top-container {
+        padding: 5% 7%;
+    }
+
+    #carousel-img {
+        height: 200px;
+    }
+
+    .end-container {
+        padding: 2% 0%;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 15px 45px;
+    }
+
+    #h1-end {
+        font-size: 2.5rem;
+    }
+
+    #dudu, #igor {
+        font-size: 1.11rem;
+    }
+}
+
+/* 320px */
+@media (max-width: 320px) {
+    #nav-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .navbar-toggler-icon {
+        width: 26px;
+    }
+
+    .nav-link, #h3 {
+        font-size: 1.1rem;
+    }
+
+    #logo-img {
+        width: 250px;
+    }
+
+    #h1 {
+        font-size: 1.43rem;
+    }
+
+    #h2, #h2-end {
+        font-size: 1.3rem;
+    }
+
+    #behance-txt:hover {
+        font-size: 1.5rem;
+        transition: .3s;
+    }
+
+    #behance-txt:not(:hover) {
+        font-size: 1.3rem;
+        transition: .3s;
+    }
+
+    #cursor {
+        width: 18%;
+    }
+
+    #h4 {
+        font-size: 1.15rem;
+    }
+
+    #h5 {
+        font-size: 0.8rem;
+    }
+
+    #p {
+        font-size: 0.9rem;
+    }
+
+    #layout-img {
+        width: 260px;
+    }
+
+    #carousel-img {
+        height: 170px;
+    }
+
+    .btn {
+        padding: 10px 40px;
+        font-size: 0.9rem;
+    }
+
+    #h1-end {
+        font-size: 2.21rem;
+    }
+
+    .profile-img {
+        width: 120px;
+    }
+
+    #dudu, #igor {
+        font-size: 0.93rem;
+    }
+}
+
+/* Specific Devices */
+
+/* Iphone XR */
+@media (width: 414px) {
+    #h1 {
+        font-size: 1.85rem;
+    }
+
+    #h3 {
+        font-size: 1.4rem;
+    }
+
+    #p {
+        font-size: 1.15rem;
+    }
+
+    #h1-end {
+        font-size: 2.5rem;
+    }
+
+    #dudu, #igor {
+        font-size: 1.1rem;
+    }
+}
+
+/* Iphone 12 Pro */
+@media (width: 390px) {
+    #v1 {
+        width: 300px;
+        height: 530px;
+    }
+
+    #v2 {
+        width: 320px;
+        height: 570px;
+    }
+}
+
+@media (width: 390px) {
+    #nav-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        width: 51px;
+        height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+    }
+
+    .top-container {
+        padding: 5% 12%;
+    }
+
+    #p {
+        font-size: 1.1rem;
+    }
+
+    #h1-end {
+        font-size: 2.4rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 15px 80px;
+    }
+
+    #dudu, #igor {
+        font-size: 1.03rem;
+    }
+}
+
+/* Samsung Galaxy S8 */
+@media (width: 360px) {
+    .nav-link {
+        font-size: 1.15rem;
+    }
+
+    .top-container {
+        padding: 5% 13%;
+    }
+
+    .layout-img {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+
+/* Galaxy S20 - A50 -> A71 */
+@media (width: 412px) {
+    .top-container {
+        padding: 5% 14%;
+    }
+
+    #h1-end {
+        font-size: 2.5rem;
+    }
+
+    #p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #v1 {
+        position: static;
+    }
+}
+
+/* Ipad Air */
+
+
+@media (width: 820px) {
+    #nav-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #v1 {
+        margin-top: 30px;
+    }
+
+    #layout-img {
+        padding: 30% 0 10%;
+    }
+
+    .middle-container {
+        padding: 0 0 40%;
+    }
+
+    #h2-end {
+        margin-bottom: 40px;
+    }
+
+    #carousel-img {
+        height: 350px;
+    }
+
+    #v2 {
+        margin: 16px 0;
+    }
+}
+
+/* Surface Pro 7 */
+@media (width: 912px) {
+    #nav-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #v1, #v2 {
+        width: 400px;
+        height: 700px;
+    }
+
+    #v2 {
+        margin: 20px 0;
+    }
+}
+
+/* Surface Duo */
+
+@media (width: 540px) {
+    #nav-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+    }
+
+    .navbar-toggler {
+        width: 60px;
+        height: 50px;
+    }
+
+      .profile-img {
+        width: 170px;
+    } 
+
+    #logo-img {
+        width: 350px;
+    }  
+
+    #p {
+        font-size: 1.1rem;
+    }
+} 
+
+/* Galaxy Fold */
+
+@media (width: 280px) {
+    #nav-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .navbar-toggler {
+        width: 50px;
+        height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        width: 22px;
+    }
+
+    #p {
+        font-size: 1rem;
+    }
+
+    #logo-img {
+        width: 220px;
+    }
+
+    #v1, #v2 {
+        width: 212px;
+        height: 370px;
+    }
+
+    .top-container {
+        padding: 5% 10%;
+    }
+
+    #layout-img {
+        width: 200px;
+    }
+
+    #carousel-img {
+        height: 150px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 15px 30px;
+    }
+
+    #h1-end {
+        font-size: 1.8rem;
+    }
+
+    #dudu, #igor {
+        font-size: 0.8rem;
+    }
+
+    .profile-img {
+        width: 105px;
+    }
+
+    #copyright {
+        font-size: 0.75rem;
+    }
+}

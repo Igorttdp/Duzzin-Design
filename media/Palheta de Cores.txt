@@ -1,0 +1,5 @@
+Cinza : 1a1a1a
+Branco : ffffff
+Amarelo : ffb22c
+
+Gradient - ffd160 - ffaa7a
