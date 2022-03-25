@@ -1,5 +1,5 @@
 body {
-    color: #fff;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     text-align: center;
@@ -7,6 +7,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
+}
+
+#p {
+    font-size: 1.15rem;
+}
+
+.justify {
+    text-align: justify;
 }
 
 .orange-space {
@@ -22,6 +30,12 @@ video {
     height: 690px;
 }
 
+.navbar {
+    font-style: normal;
+    padding-top: 0.3rem;
+    padding-bottom: 0;
+}
+
 /* Start */
 
 #logo-img {
@@ -29,6 +43,7 @@ video {
 }
 
 #logo {
+    padding: 4rem 0;
     margin-top: 2rem;
 }
 
@@ -44,7 +59,7 @@ video {
 
 #start {
     background-color: #1A1A1A;
-    color: #fff;
+    color: #ffffff;
 }
 
 .top-container {
@@ -61,15 +76,16 @@ hr:not([size]) {
 
 .text-hr {
     margin: 5rem 0;
-    opacity: 1;
     color: #ffae00;
+    opacity: 1;
+    text-decoration: underline;
 }
 
 
 /* LAYOUT's */
 
 #layouts {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 #layout-img {
@@ -141,7 +157,7 @@ hr:not([size]) {
 }
 
 .hr-end {
-    color: #fff;
+    color: #ffffff;
     opacity: 1;
 }
 
@@ -153,7 +169,7 @@ hr:not([size]) {
     font-weight: 900;
 }
 
-#h1-end {
+#h2-end-2 {
     font-weight: 900;
     font-style: normal;
     font-size: 3.5rem;
@@ -161,7 +177,6 @@ hr:not([size]) {
 
 .profile-img {
     width: 260px;
-    height: 260;
 }
 
 .profile-img:hover {
@@ -192,7 +207,7 @@ footer {
 }
 
 #instagram:not(:hover) {
-    color: #fff;
+    color: #ffffff;
     transition: .4s
 }
 
@@ -202,7 +217,7 @@ footer {
 }
 
 #behance:not(:hover) {
-    color: #fff;
+    color: #ffffff;
     transition: .4s
 }
 
@@ -212,8 +227,6 @@ footer {
 }
 
 /* Media Query */
-
-
 
 /* 1440px */
 
@@ -268,25 +281,31 @@ footer {
 
 @media (max-width:768px) {
     #nav-img {
-        width: 64px;
-        height: 64px;
+        width: 50px;
+        height: 50px;
     }
 
     .navbar-toggler {
-        width: 100px;
-        height: 65px;
+        width: 70px;
+        height: 50px;
     }
 
     .navbar-toggler-icon {
-        width: 45px;
+        width: 30px;
     }
 
     .nav-link {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     #p {
         font-size: 1.35rem;
+        line-height: 1.7;
+    }
+
+    #logo {
+        padding: 6rem 0 4rem;
+        margin-top: 2rem;
     }
 
     #v1 {
@@ -306,15 +325,20 @@ footer {
         height: 415px;
     }
 
+    #h2-end {
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+    }
+
+    #video-margin {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
     #v2 {
         margin: 20px 0;
         width: 420px;
         height: 740px;
-    }
-
-    #h2-end {
-        font-size: 2.2rem;
-        margin-bottom: 40px;
     }
 
     #behance-txt:hover {
@@ -332,24 +356,56 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+    #logo-img {
+        width: 350px;
+    }
+
+    .top-container {
+        padding: 5% 10%;
+    }
+
+    #v1, #v2 {
+        width: 360px;
+        height: 640px;
+    }
+
+    #carousel-img {
+        height: 260px;
+    }
+
+    .profile-img {
+        width: 170px;
+    }
+}
+
 /* 425px */
 @media (max-width: 425px) {
     #nav-img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .navbar-toggler {
-        width: 60px;
-        height: 50px;
+        width: 50px;
+        height: 40px;
     }
 
     .navbar-toggler-icon {
-        width: 35px;
+        width: 25px;
     }
 
     #h1 {
         font-size: 1.9rem;
+    }
+
+    .justify {
+        text-align: initial;
+    }
+
+    #logo {
+        padding: 4rem 0 4rem;
+        margin-top: 2rem;
     }
 
     #logo-img {
@@ -357,8 +413,8 @@ footer {
     }
 
     #v1, #v2 {
-        width: 240px;
-        height: 426px;
+        width: 295px;
+        height: 530px;
     }
 
     #carousel-img {
@@ -380,7 +436,7 @@ footer {
         transition: .3s;
     }
 
-    #h1-end {
+    #h2-end-2 {
         font-size: 2.6rem;
     }
 
@@ -397,13 +453,36 @@ footer {
 
 @media (max-width: 375px) {
 
+    #nav-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+    }
+
     .navbar-toggler {
-        width: 60px;
+        width: 50px;
         height: 40px;
     }
 
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    #logo {
+        padding: 4rem 0 1rem;
+        margin-top: 2rem;
+    }
+
     #logo-img {
-        width: 280px;
+        width: 300px;
+    }
+
+    #v1, #v2 {
+        width: 295px;
+        height: 520px;
     }
 
     #h1 {
@@ -436,7 +515,7 @@ footer {
         padding: 15px 45px;
     }
 
-    #h1-end {
+    #h2-end-2 {
         font-size: 2.5rem;
     }
 
@@ -448,20 +527,35 @@ footer {
 /* 320px */
 @media (max-width: 320px) {
     #nav-img {
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
     }
 
     .navbar-toggler-icon {
-        width: 26px;
+        width: 25px;
     }
 
-    .nav-link, #h3 {
-        font-size: 1.1rem;
+    .navbar-toggler {
+        width: 50px;
+        height: 40px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    #logo {
+        padding: 4rem 0 0rem;
+        margin-top: 2rem;
     }
 
     #logo-img {
         width: 250px;
+    }
+
+    #v1, #v2 {
+        width: 265px;
+        height: 470px;
     }
 
     #h1 {
@@ -511,7 +605,7 @@ footer {
         font-size: 0.9rem;
     }
 
-    #h1-end {
+    #h2-end-2 {
         font-size: 2.21rem;
     }
 
@@ -540,7 +634,7 @@ footer {
         font-size: 1.15rem;
     }
 
-    #h1-end {
+    #h2-end-2 {
         font-size: 2.5rem;
     }
 
@@ -585,7 +679,7 @@ footer {
         font-size: 1.1rem;
     }
 
-    #h1-end {
+    #h2-end-2 {
         font-size: 2.4rem;
     }
 
@@ -599,23 +693,41 @@ footer {
     }
 }
 
-/* Samsung Galaxy S8 */
-@media (width: 360px) {
-    .nav-link {
-        font-size: 1.15rem;
+/* Pixel 5 */
+@media (width: 393px) {
+    .top-container {
+        padding: 5% 12%;
     }
+
+    .bottom-container {
+        padding: 7% 2%;
+    }
+}
+
+/* Samsung Galaxy S8+ */
+@media (width: 360px) {
 
     .top-container {
         padding: 5% 13%;
+    }
+
+    #v1, #v2 {
+        width: 270px;
+        height: 480px;
     }
 
     .layout-img {
         width: 80%;
     }
 
+    .bottom-container {
+        padding: 7% 4%;
+    }
+
     .btn {
         font-size: 0.9rem;
     }
+
 }
 
 /* Galaxy S20 - A50 -> A71 */
@@ -624,7 +736,12 @@ footer {
         padding: 5% 14%;
     }
 
-    #h1-end {
+    #v1, #v2 {
+        width: 295px;
+        height: 525px;
+    }
+
+    #h2-end-2 {
         font-size: 2.5rem;
     }
 
@@ -646,6 +763,10 @@ footer {
     #nav-img {
         width: 45px;
         height: 45px;
+    }
+
+    #p {
+        font-size: 1.3rem;
     }
 
     #v1 {
@@ -680,6 +801,10 @@ footer {
         height: 45px;
     }
 
+    #p {
+        line-height: 2;
+    }
+
     #v1, #v2 {
         width: 400px;
         height: 700px;
@@ -707,18 +832,40 @@ footer {
         height: 50px;
     }
 
-      .profile-img {
+    .profile-img {
         width: 170px;
-    } 
+    }
 
     #logo-img {
         width: 350px;
-    }  
+    }
 
     #p {
         font-size: 1.1rem;
     }
-} 
+
+    #v1, #v2 {
+        margin: 20px 0;
+        width: 280px;
+        height: 500px;
+    }
+
+    #carousel-img {
+        height: 280px;
+    }
+
+    .bottom-container {
+        padding: 7% 3%;
+    }
+
+    .btn {
+        padding: 17px 130px;
+    }
+
+    #h2-end-2 {
+        font-size: 3rem;
+    }
+}
 
 /* Galaxy Fold */
 
@@ -767,7 +914,7 @@ footer {
         padding: 15px 30px;
     }
 
-    #h1-end {
+    #h2-end-2 {
         font-size: 1.8rem;
     }
 
@@ -781,5 +928,12 @@ footer {
 
     #copyright {
         font-size: 0.75rem;
+    }
+}
+
+/* Nest Hub Max */
+@media (width: 1280px) {
+    .end-container {
+        padding: 2% 5%;
     }
 }
