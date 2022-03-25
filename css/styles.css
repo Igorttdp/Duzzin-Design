@@ -13,10 +13,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.15rem;
 }
 
-.signature {
-    color: #ada6a6;
-    font-size: 0.8rem;
-}
 
 .justify {
     text-align: justify;
@@ -226,6 +222,19 @@ footer {
     transition: .4s
 }
 
+.signature {
+    color: #ada6a6;
+    font-size: 0.8rem;
+}
+
+.gitlink {
+    text-decoration: none;
+    color: #ada6a6;
+}
+
+.gitlink:hover {
+    color: #888282;
+}
 
 .font-style-normal {
     font-style: normal;
